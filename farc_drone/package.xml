@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>farc_drone</name>
+  <version>0.0.0</version>
+  <description>metapackage for the farc_drone project</description>
+
+  <maintainer email="farc@nitk.edu.in">FARC NITK</maintainer>
+
+  <license>BSD-3-Clause</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>farc_drone_simulation</exec_depend>
+
+  <export><metapackage/></export>
+</package>
